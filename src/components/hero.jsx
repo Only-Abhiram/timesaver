@@ -17,7 +17,7 @@ export default function Hero() {
                 <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start space-y-3 sm:space-y-0 sm:space-x-4 mb-8">
 
                     <a href="#collections" className="ease-in-out">
-                        <button  className=" cursor-pointer bg-yellow-400 shadow-lg shadow-yellow-500/50 text-white rounded-full px-6 py-3 font-medium flex items-center w-full sm:w-auto justify-center">
+                        <button  className=" cursor-pointer bg-yellow-400 inset-shadow-sm inset-shadow-white shadow-xl shadow-yellow-500/50 text-white rounded-full px-6 py-3 font-medium flex items-center w-full sm:w-auto justify-center">
                             Explore Tools
                             <svg className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -33,27 +33,8 @@ export default function Hero() {
             </div>
 
             <div  className="md:w-2/5 mt-10 md:mt-0">
-                <div className="relative">
-                    <div className="bg-white rounded-lg shadow-lg p-4 border border-gray-100">
-                        <div className="flex items-center mb-3">
-                            <div className="flex space-x-1">
-                                <div className="h-2.5 w-2.5 rounded-full bg-red-500"></div>
-                                <div className="h-2.5 w-2.5 rounded-full bg-yellow-500"></div>
-                                <div className="h-2.5 w-2.5 rounded-full bg-green-500"></div>
-                            </div>
-                        </div>
-                        <div className="bg-[#5D5FEF]/10 rounded-md p-4 mb-3">
-                            <div className="h-4 w-8 bg-[#5D5FEF] rounded mb-3"></div>
-                            <div className="h-3 w-full bg-gray-200 rounded mb-2"></div>
-                            <div className="h-3 w-3/4 bg-gray-200 rounded"></div>
-                        </div>
-                        <div id='collections' className="space-y-2">
-                            <div className="h-3 w-full bg-gray-100 rounded"></div>
-                            <div className="h-3 w-5/6 bg-gray-100 rounded"></div>
-                            <div className="h-3 w-4/6 bg-gray-100 rounded"></div>
-                        </div>
-                    </div>
-                </div>
+            <img src="../../public/animi.gif" alt="Loading..." className="m-2 rounded-2xl shadow-2xl" />
+            <div id="collections"></div>
             </div>
         </div>
     </section>
